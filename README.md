@@ -28,15 +28,15 @@ This project handles webhook events for Clock In and Clock Out, processes the da
 ### Installation
 
 1. Clone the repository:
-    ```sh
-    git clone https://github.com/yourusername/airtable-webhook-integration.git
-    cd airtable-webhook-integration
-    ```
+```sh
+git clone https://github.com/yourusername/airtable-webhook-integration.git
+cd airtable-webhook-integration
+```
 
 2. Install the dependencies:
-    ```sh
-    npm install
-    ```
+```sh
+npm install
+```
 
 ### Environment Variables
 
@@ -53,18 +53,17 @@ AIRTABLE_TABLE_NAME=your_airtable_table_name
 ## Usage
 
 1. Start the server:
-    ```sh
-    npm run start
-    ```
+```sh
+npm run start
+```
 
 2. The server will start and listen for webhook events at `http://localhost:3000/webhook`.
 
 ## Testing
 
 This project uses Jest for testing. To run the tests, use the following command:
-
-    ```sh
-    npm test
-    ```
+```sh
+npm test
+```
 
 The test suite includes tests for the Airtable service functions and the webhook handler.
