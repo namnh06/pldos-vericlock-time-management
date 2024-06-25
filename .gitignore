@@ -1,6 +1,7 @@
 # Created by https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode,windows,linux,dotenv,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,visualstudiocode,windows,linux,dotenv,node
-
+### Data
+data/*
 ### dotenv ###
 .env
 .env.development
